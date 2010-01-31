@@ -32,7 +32,8 @@ File.open("public/data/contents.html", "w") do |f|
   f.puts "<div id='content'>"
   f.puts "<ul>"
   NAMES.each do |name|
-    f.puts "<li><a href='#{file_for(name)}'>#{name}</a></li>"
+    sort_name = name.sub(/^(a|an|the)\s+(.*)/i) { $2 + ", " + $1 }
+    f.puts "<li><a href='#{file_for(name)}'>#{sort_name}</a></li>"
   end
   f.puts "</ul>"
   f.puts "</div>"
