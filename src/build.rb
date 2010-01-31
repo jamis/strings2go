@@ -48,7 +48,19 @@ names.each do |name|
         index += 1
       end
 
-      f.print " <span class='comment'>(#{htmlify(comment)})</span>" if comment
+      if comment
+        comment = htmlify(comment).gsub(/\[\[(.*?)\]\]/) do
+          target = $1
+          if data[target]
+            "<a href='#{file_for($1)}'>#{target}</a>"
+          else
+            warn "no such figure #{target.inspect}"
+            target
+          end
+        end
+        f.print " <span class='comment'>(#{comment})</span>"
+      end
+
       f.print "</div>"
       f.puts '</li>'
     end
