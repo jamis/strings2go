@@ -50,8 +50,15 @@ NAMES.each do |name|
       instruction = step.is_a?(String) ? step : step['step']
       comment = step.is_a?(String) ? nil : step['comment']
       figure = step.is_a?(String) ? nil : step['figure']
+      dup = step.is_a?(String) ? nil : step['dup']
 
-      f.print "<li><div class='idx'"
+      f.print "<li"
+      if figure
+        f.print " class='figure'"
+      elsif dup
+        f.print " class='dup'"
+      end
+      f.print "><div class='idx'"
       f.print " style='visibility: hidden'" if instruction.nil?
       f.print ">#{index}</div> "
       f.print "<div class='step'>"
