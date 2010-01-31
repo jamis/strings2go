@@ -79,7 +79,6 @@ Dressing a Skin:
     - "SPR hard"
 
 A Fish Spear:
-  start: base
   steps:
     - "1-5,s"
     - "R2,p/"
@@ -165,7 +164,6 @@ Many Stars:
     - "SPR & arrange"
 
 An Owl:
-  start: base
   steps:
     - "1-5,s"
     - "R2,p/"
@@ -238,6 +236,7 @@ Seven Stars:
     - { step: "5", dup: true }
     - { step: "1h-2h,(3a)3b", dup: true }
     - { step: "3", dup: true }
+    - "1h"
     - { step: "1h,2a", comment: "1ah now has two strings" }
     - { step: "(1h*)1l", comment: "1h=two strings" }
     - { step: "3.6,(s&qd)qu", comment: "=on 1d-2d" }
