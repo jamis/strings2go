@@ -145,3 +145,254 @@ Bagobo Two Diamonds:
     - "4,2alj"
     - "(1ah*)1al"
     - "SPR & display"
+
+Many Stars:
+  start: base
+  steps:
+    - "1,5a"
+    - "3,1b"
+    - "1"
+    - "1,(2b&3&5a)5b"
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - "(L2bh*)2bl"
+    - "(L1h*)1l"
+    - "repeat 8-9 on R"
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
+    - "1"
+    - { step: "2bc", comment: "optional" }
+    - "SPR & arrange"
+
+An Owl:
+  start: base
+  steps:
+    - "1-5,s"
+    - "R2,p/"
+    - "R2ab[3]"
+    - "L2,1b/"
+    - { comment: "next 5-18 steps are the same as 1-14 of [[Many Stars]]" }
+    - "1,5a"
+    - "3,1b"
+    - "1"
+    - "1,(2b&3&5a)5b"
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - "(L2bh*)2bl"
+    - "(L1h*)1l"
+    - "repeat 12-13 on R"
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
+    - "1"
+    - { step: "2bc", comment: "optional" }
+    - "SPR & arrange"
+
+A Second Owl:
+  start: base
+  steps:
+    - "2ab[2]"
+    - { comment: "next 2-15 steps are the same as 1-14 of [[Many Stars]]" }
+    - "1,5a"
+    - "3,1b"
+    - "1"
+    - "1,(2b&3&5a)5b"
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - "(L2bh*)2bl"
+    - "(L1h*)1l"
+    - "repeat 12-13 on R"
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
+    - "1"
+    - { step: "2bc", comment: "optional" }
+    - "SPR & arrange"
+
+A Third Owl:
+  start: base
+  steps:
+    - { comment: "next 1-3 steps are the same as 1-3 of [[Many Stars]]" }
+    - "1,5a"
+    - "3,1b"
+    - "1"
+    - { step: "1,(2a 3 5a)5b", comment: "note 2a, not 2b!" }
+    - { comment: "next 5-14 steps are the same as 5-14 of [[Many Stars]]" }
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - "(L2bh*)2bl"
+    - "(L1h*)1l"
+    - "repeat 8-9 on R"
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
+    - "1"
+    - { step: "2bc", comment: "optional" }
+    - "SPR & arrange"
+
+Seven Stars:
+  start: base
+  steps:
+    - { comment: "next 1-7 steps are the same as 1-7 of [[Many Stars]]" }
+    - "1,5a"
+    - "3,1b"
+    - "1"
+    - "1,(2b&3&5a)5b"
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - { step: "1h,2a", comment: "1ah now has two strings" }
+    - { step: "(1h*)1l", comment: "1h=two strings" }
+    - { step: "3.6,(s&qd)qu", comment: "=on 1d-2d" }
+    - { step: "2bo bc", comment: "optional" }
+    - "1"
+    - { step: "1,3.6b", comment: "optional" }
+    - "SPR & arrange"
+
+Two-Horned Star:
+  start: base
+  steps:
+    - { comment: "next 1-7 steps are the same as 1-7 of [[Many Stars]]" }
+    - "1,5a"
+    - "3,1b"
+    - "1"
+    - "1,(2b&3&5a)5b"
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - "1h"
+    - "(2h*)2l"
+    - "1h,2a"
+    - "(1h*)1l"
+    - { step: "3.6,(s qd)qu", comment: "=on 1d-2d" }
+    - { step: "2bc", comment: "optional" }
+    - "1"
+    - { step: "45.6,3.6b", comment: "optional" }
+    - "SPR & arrange"
+
+Two-Coyotes:
+  start: base
+  steps:
+    - "base"
+    - "1,5a"
+    - "3,1b"
+    - "1"
+    - { step: "1,(2a 3 5a)5b", comment: "note 2a, not 2b!" }
+    - "5"
+    - "2h,(3a)3b"
+    - "3"
+    - "(2h*)2l"
+    - "1h,2a"
+    - "(1h*)1l"
+    - { step: "3.6,(s&qd)qu", comment: "=on 1d-2d" }
+    - "1"
+    - "SPR & arrange"
+
+Big Star:
+  start: base
+  steps:
+    - "1,(2b 5a)5b"
+    - { comment: "next 2-14 steps are the same as 2-14 of [[Many Stars]]" }
+    - "3,1b"
+    - "1"
+    - "1,(2b&3&5a)5b"
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - "(L2bh*)2bl"
+    - "(L1h*)1l"
+    - "repeat 8-9 on R"
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
+    - "1"
+    - { step: "2bc", comment: "optional" }
+    - "SPR & arrange"
+
+North Star:
+  start: base
+  steps:
+    - "3,1"
+    - { comment: "next 2-12 steps are the same as 4-14 of [[Many Stars]]" }
+    - "1,(2b&3&5a)5b"
+    - "5"
+    - "1h-2h,(3a)3b"
+    - "3"
+    - "(L2bh*)2bl"
+    - "(L1h*)1l"
+    - "repeat 8-9 on R"
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
+    - "1"
+    - { step: "2bc", comment: "optional" }
+    - "SPR & arrange"
+
+Carrying Wood:
+  start: base
+  steps:
+    - "base"
+    - "1-2h,5"
+    - "(1h*)1l"
+    - { step: "1.6,qu", comment: "=on 1d-2d, auto-off 1 old" }
+    - "(2h*)2l"
+    - { step: "2bc", comment: "optional" }
+    - "Caroline"
+
+"Owl's Net":
+  start: base
+  steps:
+    - "1h,2b"
+    - "3,(1ah)1al"
+    - "2T3"
+    - { step: "1", comment: "SPR" }
+    - "1,(2h&2bl&5a)5b"
+    - "5"
+    - "345.6,(s)1a"
+    - "1"
+    - "1,2h"
+    - { step: "3.6,(2)1b", comment: "keep 345.6 old" }
+    - { step: "3.4,3.6b", comment: "one string, auto-off 45.6 old to new q" }
+    - { step: "3.6,3.4", comment: "hold again 3.6 old, one string" }
+    - { step: "345.6,3.6", comment: "one string" }
+    - { step: "3.6,(qu)qd", comment: "keep 345.6 old" }
+    - "repeat 11-13"
+    - { step: "23,2", comment: "345.6 old auto-turns to 45.6" }
+    - { step: "2.3,(23b)1a", comment: "auto-off 2 old" }
+    - "1"
+    - "SPR & arrange"
+
+Two Elks:
+  start: base
+  steps:
+    - "1,(5a)5b"
+    - "1 kick"
+    - "1e,(5b*)1a"
+    - "1e,(5a*)1a"
+    - "2"
+    - "SPR & arrange"
+
+A Rabbit:
+  start: base
+  steps:
+    - "3,1a"
+    - "2T3"
+    - "1"
+    - "1,(s 2ah*)5b"
+    - "1h,2ah"
+    - "(1h*)1l"
+    - "2h"
+    - "234.6,1b&2"
+    - "5"
+    - "345.6,234.6"
+    - "2hT1"
+    - "SPR & arrange"
+
+The Sun:
+  start: base
+  steps:
+    - "3,1a"
+    - "2T3"
+    - "1"
+    - "1,(2l 2ah* 2bh 5a)5b"
+    - "5"
+    - "345.6T(2)1"
+    - "1,2ah"
+    - { step: "3.6", comment: "keep 45.6" }
+    - { step: "3.6,2bh&2l", comment: "three strings, not including 45.6" }
+    - { step: "45.6", comment: "let 45.6 old hang down" }
+    - "345.6,3.6b"
+    - { step: "SPR & arrange", comment: "sun appears by raising 1" }
