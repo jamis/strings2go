@@ -711,7 +711,7 @@ A Porcupine:
     - { step: "L2.3,(1ah)1al", comment: "1h: 2 strings" }
     - "L1"
     - { step: "L1,d2d", comment: "d2d: two strings" }
-    - { step: "L2lT1", comment: "L2 old becomes 2h" }
+    - { step: "L2l,1", comment: "L2 old becomes 2h" }
     - { step: "L1,2h", comment: "L2h=2 old" }
     - "L2"
     - "L2T1"
