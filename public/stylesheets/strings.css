@@ -94,3 +94,11 @@ body {
 #container li .comment {
   color: #999;
 }
+
+#container li .figure {
+  color: #f22;
+}
+
+#container li .figure a {
+  color: #f22;
+}
