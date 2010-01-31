@@ -1,0 +1,147 @@
+---
+An Apache Door:
+  start: base
+  steps:
+    - '0,2'
+    - '1,5a'
+    - '5,1b'
+    - 'L1,s/'
+    - { step: "L1e(1h)1l", comment: "=1 old, two strings" }
+    - "repeat 4-5 on R"
+    - "0"
+    - "SPR & arrange"
+
+Fighting Head-Hunters:
+  start: base
+  steps:
+    - "5T1"
+    - "1,(2)5"
+    - { step: "5,1b", comment: "SPR 5b & slacken 1a" }
+    - { step: "2h,d2", comment: "d2=2jj two strings" }
+    - { step: "(2h*)2l", comment: "2h=two strings" }
+    - "1"
+    - "2ab[3]"
+    - { step: "2", comment: "gently hang down" }
+    - { step: "SPR & move", comment: "L5 pulls L5a gently until knots meet, then jerk slightly causing at least one knot to unravel" }
+
+A Sunset:
+  start: base
+  steps:
+    - "5T1"
+    - { step: "1,(2)5", comment: "two strings" }
+    - { step: "5,1b", comment: "two strings" }
+    - "L2TT"
+    - { step: "3,(2a)1b", comment: "two strings" }
+    - "1"
+    - "2"
+    - "1,3"
+    - { step: "2,d2", comment: "d2=1ajj/ (nearly), two strings" }
+    - { step: "3,(2a)1b", comment: "two strings" }
+    - "1"
+    - "2"
+    - "2,3a"
+    - "SPR & arrange"
+
+Osage Diamonds:
+  start: base
+  steps:
+    - "1"
+    - "1,(s)5b"
+    - "1,2b"
+    - "5"
+    - "5,1b"
+    - "1"
+    - "1,5a"
+    - "1h,2a"
+    - "(1h*)1l"
+    - { step: "2.6,qu", comment: "=on 1d-2d, auto-off 2 old" }
+    - "2.3,2.6"
+    - "5"
+    - "Caroline"
+
+Osage Two Diamonds:
+  start: base
+  steps:
+    - "1"
+    - "1,5b"
+    - "1h,2a"
+    - "(1h*)1l"
+    - { step: "2.6,qu", comment: "=on 1d-2d, auto-off 2 old" }
+    - "2.3,2.6"
+    - "5"
+    - "Caroline"
+
+Dressing a Skin:
+  start: base
+  steps:
+    - { step: "(s*)5", comment: "throw 5 over near side of hand" }
+    - "1.6,2bjj"
+    - "SPR hard"
+
+A Fish Spear:
+  start: base
+  steps:
+    - "1-5,s"
+    - "R2,p/"
+    - "R2ab[2]"
+    - "L2,2p/"
+    - "R1&R5"
+    - "SPR & arrange"
+
+A Sea-Snake:
+  start: base
+  steps:
+    - "L0ad,s/"
+    - "L0bd,2b/"
+    - "R2"
+    - { step: "L old s/", comment: "remove old s/ around L0bd" }
+    - { step: "L2", comment: "SPR" }
+    - "L2,p/"
+    - "L0"
+    - { step: "L1", comment: "SPR" }
+    - "L1,2"
+    - { step: "2.3h,5b", comment: "SPR hard, and..." }
+    - { comment: "Concentrate tangle to a point near center" }
+    - { comment: "Turn L palm toward out side, R remains in normal position" }
+    - { step: "L1", comment: "very gently, then spread outer strings wide" }
+    - "SPR & move the sea snake"
+
+A King Fish:
+  start: base
+  steps:
+    - "R2"
+    - "L2.6,2p"
+    - { step: "L1&L5", comment: "SPR" }
+    - "L1-5,2.6"
+    - "L2,p1/"
+    - "L2ab"
+    - "R2ad,(1b)5a"
+    - { step: "L5.6,2b", comment: "auto-off 5 old" }
+    - { step: "R5.6,(2b)1bj", comment: "auto-off 5 old" }
+    - { step: "L2ac", comment: "optional" }
+    - { step: "R2ac", comment: "optional" }
+    - "1"
+    - "SPR & arrange"
+
+Bagobo Diamonds:
+  start: base
+  steps:
+    - "5"
+    - "2h,1"
+    - "1,(2ah&2bh),2bl"
+    - "1h,2bh"
+    - "4,2alj"
+    - { step: "(1ah*)1al", comment: "by mouth service" }
+    - { step: "inner pull", comment: "inner=2ahjj" }
+    - { step: "SPR & display", comment: "L in display position, R turned with fingers pointing toward you, then figure appears" }
+
+Bagobo Two Diamonds:
+  start: base
+  steps:
+    - "1"
+    - "2h,5"
+    - "1,(2ah&2bh)2bl"
+    - "1h,2bh"
+    - "4,2alj"
+    - "(1ah*)1al"
+    - "SPR & display"

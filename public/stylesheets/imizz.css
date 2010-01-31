@@ -1,0 +1,96 @@
+body {
+  background-color: #ddd;
+  color: #222;
+  font-family: Helvetica;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #ccc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+  border-bottom: 1px solid #666;
+}
+
+#header h1 {
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  text-shadow: 0px 1px 0px #fff;
+  max-width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#header div.leftButton {
+  font-weight: bold;
+  text-align: center;
+  line-height: 28px;
+  color: white;
+  text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+  position: absolute;
+  top: 7px;
+  left: 6px;
+  max-width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-width: 0 8px 0 14px;
+  -webkit-border-image: url(../images/back_button.png) 0 8 0 14;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#header div.leftButton.clicked {
+  -webkit-border-image: url(../images/back_button_clicked.png) 0 8 0 14;
+}
+
+#container ul, #container ol {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+#container ul li a,
+#container ol li {
+  background-color: #fff;
+  border: 1px solid #999;
+  color: #222;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: -1px;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+
+#container ul li:first-child a,
+#container ol li:first-child {
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+}
+
+#container ul li:last-child a,
+#container ol li:last-child {
+  -webkit-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+}
+
+#container li .idx {
+  color: #999;
+  display: table-cell;
+  padding: 2px;
+}
+
+#container li .step {
+  display: table-cell;
+  padding: 2px;
+}
+
+#container li .comment {
+  color: #999;
+}
