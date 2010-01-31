@@ -172,72 +172,72 @@ An Owl:
     - "R2ab[3]"
     - "L2,1b/"
     - { comment: "next 5-18 steps are the same as 1-14 of [[Many Stars]]" }
-    - "1,5a"
-    - "3,1b"
-    - "1"
-    - "1,(2b&3&5a)5b"
-    - "5"
-    - "1h-2h,(3a)3b"
-    - "3"
-    - "(L2bh*)2bl"
-    - "(L1h*)1l"
-    - "repeat 12-13 on R"
-    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
-    - "1"
-    - { step: "2bc", comment: "optional" }
-    - "SPR & arrange"
+    - { step: "1,5a", dup: true }
+    - { step: "3,1b", dup: true }
+    - { step: "1", dup: true }
+    - { step: "1,(2b&3&5a)5b", dup: true }
+    - { step: "5", dup: true }
+    - { step: "1h-2h,(3a)3b", dup: true }
+    - { step: "3", dup: true }
+    - { step: "(L2bh*)2bl", dup: true }
+    - { step: "(L1h*)1l", dup: true }
+    - { step: "repeat 12-13 on R", dup: true }
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d", dup: true }
+    - { step: "1", dup: true }
+    - { step: "2bc", comment: "optional", dup: true }
+    - { step: "SPR & arrange", dup: true }
 
 A Second Owl:
   start: base
   steps:
     - "2ab[2]"
     - { comment: "next 2-15 steps are the same as 1-14 of [[Many Stars]]" }
-    - "1,5a"
-    - "3,1b"
-    - "1"
-    - "1,(2b&3&5a)5b"
-    - "5"
-    - "1h-2h,(3a)3b"
-    - "3"
-    - "(L2bh*)2bl"
-    - "(L1h*)1l"
-    - "repeat 12-13 on R"
-    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
-    - "1"
-    - { step: "2bc", comment: "optional" }
-    - "SPR & arrange"
+    - { step: "1,5a", dup: true }
+    - { step: "3,1b", dup: true }
+    - { step: "1", dup: true }
+    - { step: "1,(2b&3&5a)5b", dup: true }
+    - { step: "5", dup: true }
+    - { step: "1h-2h,(3a)3b", dup: true }
+    - { step: "3", dup: true }
+    - { step: "(L2bh*)2bl", dup: true }
+    - { step: "(L1h*)1l", dup: true }
+    - { step: "repeat 12-13 on R", dup: true }
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d", dup: true }
+    - { step: "1", dup: true }
+    - { step: "2bc", comment: "optional", dup: true }
+    - { step: "SPR & arrange", dup: true }
 
 A Third Owl:
   start: base
   steps:
     - { comment: "next 1-3 steps are the same as 1-3 of [[Many Stars]]" }
-    - "1,5a"
-    - "3,1b"
-    - "1"
+    - { step: "1,5a", dup: true }
+    - { step: "3,1b", dup: true }
+    - { step: "1", dup: true }
     - { step: "1,(2a 3 5a)5b", comment: "note 2a, not 2b!" }
     - { comment: "next 5-14 steps are the same as 5-14 of [[Many Stars]]" }
-    - "5"
-    - "1h-2h,(3a)3b"
-    - "3"
-    - "(L2bh*)2bl"
-    - "(L1h*)1l"
-    - "repeat 8-9 on R"
-    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
-    - "1"
-    - { step: "2bc", comment: "optional" }
-    - "SPR & arrange"
+    - { step: "5", dup: true }
+    - { step: "1h-2h,(3a)3b", dup: true }
+    - { step: "3", dup: true }
+    - { step: "(L2bh*)2bl", dup: true }
+    - { step: "(L1h*)1l", dup: true }
+    - { step: "repeat 8-9 on R", dup: true }
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d", dup: true }
+    - { step: "1", dup: true }
+    - { step: "2bc", comment: "optional", dup: true }
+    - { step: "SPR & arrange", dup: true }
 
 Seven Stars:
   start: base
   steps:
     - { comment: "next 1-7 steps are the same as 1-7 of [[Many Stars]]" }
-    - "1,5a"
-    - "3,1b"
-    - "1"
-    - "1,(2b&3&5a)5b"
-    - "5"
-    - "1h-2h,(3a)3b"
-    - "3"
+    - { step: "1,5a", dup: true }
+    - { step: "3,1b", dup: true }
+    - { step: "1", dup: true }
+    - { step: "1,(2b&3&5a)5b", dup: true }
+    - { step: "5", dup: true }
+    - { step: "1h-2h,(3a)3b", dup: true }
+    - { step: "3", dup: true }
     - { step: "1h,2a", comment: "1ah now has two strings" }
     - { step: "(1h*)1l", comment: "1h=two strings" }
     - { step: "3.6,(s&qd)qu", comment: "=on 1d-2d" }
@@ -250,13 +250,13 @@ Two-Horned Star:
   start: base
   steps:
     - { comment: "next 1-7 steps are the same as 1-7 of [[Many Stars]]" }
-    - "1,5a"
-    - "3,1b"
-    - "1"
-    - "1,(2b&3&5a)5b"
-    - "5"
-    - "1h-2h,(3a)3b"
-    - "3"
+    - { step: "1,5a", dup: true }
+    - { step: "3,1b", dup: true }
+    - { step: "1", dup: true }
+    - { step: "1,(2b&3&5a)5b", dup: true }
+    - { step: "5", dup: true }
+    - { step: "1h-2h,(3a)3b", dup: true }
+    - { step: "3", dup: true }
     - "1h"
     - "(2h*)2l"
     - "1h,2a"
@@ -290,36 +290,36 @@ Big Star:
   steps:
     - "1,(2b 5a)5b"
     - { comment: "next 2-14 steps are the same as 2-14 of [[Many Stars]]" }
-    - "3,1b"
-    - "1"
-    - "1,(2b&3&5a)5b"
-    - "5"
-    - "1h-2h,(3a)3b"
-    - "3"
-    - "(L2bh*)2bl"
-    - "(L1h*)1l"
-    - "repeat 8-9 on R"
-    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
-    - "1"
-    - { step: "2bc", comment: "optional" }
-    - "SPR & arrange"
+    - { step: "3,1b", dup: true }
+    - { step: "1", dup: true }
+    - { step: "1,(2b&3&5a)5b", dup: true }
+    - { step: "5", dup: true }
+    - { step: "1h-2h,(3a)3b", dup: true }
+    - { step: "3", dup: true }
+    - { step: "(L2bh*)2bl", dup: true }
+    - { step: "(L1h*)1l", dup: true }
+    - { step: "repeat 12-13 on R", dup: true }
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d", dup: true }
+    - { step: "1", dup: true }
+    - { step: "2bc", comment: "optional", dup: true }
+    - { step: "SPR & arrange", dup: true }
 
 North Star:
   start: base
   steps:
     - "3,1"
     - { comment: "next 2-12 steps are the same as 4-14 of [[Many Stars]]" }
-    - "1,(2b&3&5a)5b"
-    - "5"
-    - "1h-2h,(3a)3b"
-    - "3"
-    - "(L2bh*)2bl"
-    - "(L1h*)1l"
-    - "repeat 8-9 on R"
-    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d" }
-    - "1"
-    - { step: "2bc", comment: "optional" }
-    - "SPR & arrange"
+    - { step: "1,(2b&3&5a)5b", dup: true }
+    - { step: "5", dup: true }
+    - { step: "1h-2h,(3a)3b", dup: true }
+    - { step: "3", dup: true }
+    - { step: "(L2bh*)2bl", dup: true }
+    - { step: "(L1h*)1l", dup: true }
+    - { step: "repeat 12-13 on R", dup: true }
+    - { step: "3.6,(s&qd)qu", comment: "=1l old on 1d-2d", dup: true }
+    - { step: "1", dup: true }
+    - { step: "2bc", comment: "optional", dup: true }
+    - { step: "SPR & arrange", dup: true }
 
 Carrying Wood:
   start: base
@@ -416,15 +416,15 @@ Fence Around a Well:
   start: base
   steps:
     - { comment: "Steps 1-9 make [[A Well]]" }
-    - { step: "2.6,2b&5a", comment: "auto-off 2 old" }
-    - "2,2.6"
-    - "2ab"
-    - "5"
-    - { step: "345.6,2b", comment: "two strings" }
-    - { step: "3.6,(2a 1b)1a", comment: "keep 45.6" }
-    - "1"
-    - "1,(2ao 3.6a)2aij"
-    - { step: "3.6", figure: "[[A Well]]" }
+    - { step: "2.6,2b&5a", comment: "auto-off 2 old", dup: true }
+    - { step: "2,2.6", dup: true }
+    - { step: "2ab", dup: true }
+    - { step: "5", dup: true }
+    - { step: "345.6,2b", comment: "two strings", dup: true }
+    - { step: "3.6,(2a 1b)1a", comment: "keep 45.6", dup: true }
+    - { step: "1", dup: true }
+    - { step: "1,(2ao 3.6a)2aij", dup: true }
+    - { step: "3.6", figure: "[[A Well]]", dup: true }
     - { step: "1h,2a", comment: "two strings" }
     - { step: "(1h*)1l", comment: "1h=two strings" }
     - "2"
@@ -437,15 +437,15 @@ A Crab:
   start: base
   steps:
     - { comment: "Steps 1-9 make [[A Well]]" }
-    - { step: "2.6,2b&5a", comment: "auto-off 2 old" }
-    - "2,2.6"
-    - "2ab"
-    - "5"
-    - { step: "345.6,2b", comment: "two strings" }
-    - { step: "3.6,(2a 1b)1a", comment: "keep 45.6" }
-    - "1"
-    - "1,(2ao 3.6a)2aij"
-    - { step: "3.6", figure: "[[A Well]]" }
+    - { step: "2.6,2b&5a", comment: "auto-off 2 old", dup: true }
+    - { step: "2,2.6", dup: true }
+    - { step: "2ab", dup: true }
+    - { step: "5", dup: true }
+    - { step: "345.6,2b", comment: "two strings", dup: true }
+    - { step: "3.6,(2a 1b)1a", comment: "keep 45.6", dup: true }
+    - { step: "1", dup: true }
+    - { step: "1,(2ao 3.6a)2aij", dup: true }
+    - { step: "3.6", figure: "[[A Well]]", dup: true }
     - { step: "5.6,(s)1a&34.6b", comment: "5.6 has three strings at step-end" }
     - "1"
     - "34.6"
@@ -468,11 +468,11 @@ A Trigger Fish:
   start: base
   steps:
     - { comment: "next 1-5 steps are the same as 1-5 of [[A Well]]" }
-    - { step: "2.6,2b&5a", comment: "auto-off 2 old" }
-    - "2,2.6"
-    - "2ab"
-    - "5"
-    - { step: "345.6,2b", comment: "two strings" }
+    - { step: "2.6,2b&5a", comment: "auto-off 2 old", dup: true }
+    - { step: "2,2.6", dup: true }
+    - { step: "2ab", dup: true }
+    - { step: "5", dup: true }
+    - { step: "345.6,2b", comment: "two strings", dup: true }
     - { step: "R1", comment: "let it hang down in front of the figure" }
     - "R1.6,(2ao 2ai)2aij/&1a/"
     - { step: "R1,(2aoj)2aij", comment: "auto-off 1.6 old" }
@@ -486,4 +486,68 @@ A Trigger Fish:
     - { step: "R2", comment: "two strings" }
     - { step: "L1", comment: "hang loosely" }
     - "L1.6,2aij&2ai"
+    - "SPR & arrange"
+
+A Rattlesnake and a Boy:
+  start: base
+  steps:
+    - "2T5"
+    - { step: "345.6,(2h)2l", comment: "two strings" }
+    - { step: "3.6,(1b*)2ah", comment: "not include 45.6a" }
+    - "45.6"
+    - "45.6,3.6b"
+    - { step: "2.3,(2b)1a", comment: "keep 45.6" }
+    - "1"
+    - { step: "L1,2al/&2al", comment: "latter 2nd" }
+    - { step: "R1,1a/", comment: "two strings" }
+    - { step: "2lT1", comment: "two strings, keep 2ah at 2ah" }
+    - "1,2h"
+    - "2"
+    - "2T1"
+    - { step: "1,qd*", comment: "two strings" }
+    - "45.6"
+    - { step: "SPR", comment: "hard" }
+    - { step: "45.6,1*", comment: "two strings" }
+    - "1,(45.6ai)45.6ao*"
+    - "45.6"
+    - { step: "L2hT2/ & L1hT1/", comment: "hang down R strings on L" }
+    - "R2T1h/"
+    - "R1,1/"
+    - "R1.2,2h/"
+    - "L1,2"
+    - "L2,1.2/"
+    - { step: "SPR", comment: "a boy at R hand" }
+    - { step: "L1", comment: "a Rattlesnake at L" }
+    - { step: "SPR more", comment: "snake chases a boy" }
+
+Two Skunks:
+  start: base
+  steps:
+    - { comment: "next 1-13 are the same as 1-13 of [[A Rattlesnake and a Boy]]" }
+    - { step: "2T5", dup: true }
+    - { step: "345.6,(2h)2l", comment: "two strings", dup: true }
+    - { step: "3.6,(1b*)2ah", comment: "not include 45.6a", dup: true }
+    - { step: "45.6", dup: true }
+    - { step: "45.6,3.6b", dup: true }
+    - { step: "2.3,(2b)1a", comment: "keep 45.6", dup: true }
+    - { step: "1", dup: true }
+    - { step: "L1,2al/&2al", comment: "latter 2nd", dup: true }
+    - { step: "R1,1a/", comment: "two strings", dup: true }
+    - { step: "2lT1", comment: "two strings, keep 2ah at 2ah", dup: true }
+    - { step: "1,2h", dup: true }
+    - { step: "2", dup: true }
+    - { step: "2T1", dup: true }
+    - "1ad,(5bj)qu*"
+    - { step: "2l,1b", comment: "two strings, keep 2ah at 2ah" }
+    - "1"
+    - "1,2ah"
+    - "2"
+    - "2,1"
+    - { step: "1,d2dj*", comment: "d2dj=d1d, segment on 5bj transverse string" }
+    - { step: "2lT1", comment: "keep 2ah at 2ah" }
+    - "1,2h"
+    - "2"
+    - "2,1"
+    - "repeat 20-24"
+    - { step: "2ba", comment: "optional" }
     - "SPR & arrange"
