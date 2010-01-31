@@ -269,7 +269,6 @@ Two-Horned Star:
 Two Coyotes:
   start: base
   steps:
-    - "base"
     - "1,5a"
     - "3,1b"
     - "1"
@@ -323,7 +322,6 @@ North Star:
 Carrying Wood:
   start: base
   steps:
-    - "base"
     - "1-2h,5"
     - "(1h*)1l"
     - { step: "1.6,qu", comment: "=on 1d-2d, auto-off 1 old" }
@@ -549,4 +547,174 @@ Two Skunks:
     - "2,1"
     - "repeat 20-24"
     - { step: "2ba", comment: "optional" }
+    - "SPR & arrange"
+
+Two Foxes:
+  start: base
+  steps:
+    - { comment: "next 1-13 are the same as 1-13 of [[A Rattlesnake and a Boy]]" }
+    - { step: "2T5", dup: true }
+    - { step: "345.6,(2h)2l", comment: "two strings", dup: true }
+    - { step: "3.6,(1b*)2ah", comment: "not include 45.6a", dup: true }
+    - { step: "45.6", dup: true }
+    - { step: "45.6,3.6b", dup: true }
+    - { step: "2.3,(2b)1a", comment: "keep 45.6", dup: true }
+    - { step: "1", dup: true }
+    - { step: "L1,2al/&2al", comment: "latter 2nd", dup: true }
+    - { step: "R1,1a/", comment: "two strings", dup: true }
+    - { step: "2lT1", comment: "two strings, keep 2ah at 2ah", dup: true }
+    - { step: "1,2h", dup: true }
+    - { step: "2", dup: true }
+    - { step: "2T1", dup: true }
+    - { comment: "next 14-18 are the same as 20-24 of [[Two Skunks]]" }
+    - { step: "1,d2dj*", comment: "d2dj=d1d, segment on 5bj transverse string", dup: true }
+    - { step: "2lT1", comment: "keep 2ah at 2ah", dup: true }
+    - { step: "1,2h", dup: true }
+    - { step: "2", dup: true }
+    - { step: "2,1", dup: true }
+    - "SPR & arrange"
+
+Two Squirrels:
+  steps:
+    - "L1,s"
+    - { step: "R1,(1a/)1b/", comment: "not SPR" }
+    - "R1ba"
+    - "L1-5,1a/"
+    - "R1-5,1ail/"
+    - "SPR"
+    - "R2,p/"
+    - "L2,2p/"
+    - { comment: "next 9-26 are the same as 1-18 of [[Two Foxes]]" }
+    - { step: "2T5", dup: true }
+    - { step: "345.6,(2h)2l", comment: "two strings", dup: true }
+    - { step: "3.6,(1b*)2ah", comment: "not include 45.6a", dup: true }
+    - { step: "45.6", dup: true }
+    - { step: "45.6,3.6b", dup: true }
+    - { step: "2.3,(2b)1a", comment: "keep 45.6", dup: true }
+    - { step: "1", dup: true }
+    - { step: "L1,2al/&2al", comment: "latter 2nd", dup: true }
+    - { step: "R1,1a/", comment: "two strings", dup: true }
+    - { step: "2lT1", comment: "two strings, keep 2ah at 2ah", dup: true }
+    - { step: "1,2h", dup: true }
+    - { step: "2", dup: true }
+    - { step: "2T1", dup: true }
+    - { step: "1,d2dj*", comment: "d2dj=d1d, segment on 5bj transverse string", dup: true }
+    - { step: "2lT1", comment: "keep 2ah at 2ah", dup: true }
+    - { step: "1,2h", dup: true }
+    - { step: "2", dup: true }
+    - { step: "2,1", figure: "Two Squirrels", dup: true }
+    - { step: "1,2ahjj", comment: "If we name the single straight string at figure center middle as cm, 2ahjj=cmj/" }
+    - "2"
+    - { step: "SPR & arrange", figure: "Two Squirrels Hung Up" }
+
+"The Leashing of Lochiel's Dogs":
+  start: base
+  steps:
+    - "0T1"
+    - "1,2"
+    - "3,0"
+    - "5h,(3b)5a"
+    - "(5h*)5l"
+    - "1"
+    - "SPR & arrange"
+
+Two Hogans:
+  start: base
+  steps:
+    - { step: "mouth,2a&2b", comment: "where the strings cross in the middle" }
+    - "1"
+    - "2"
+    - "0,5"
+    - { step: "5,(0b*)1 old", comment: "1 old is the long hanging string" }
+    - "5e,(5b)5aj"
+    - "mouth"
+    - "SPR"
+    - "mouth,q"
+
+A Cariboo:
+  start: base
+  steps:
+    - "R2bd,(5b s)1a"
+    - "R1"
+    - "R2ab[2]"
+    - "L2,(2b/ 2a/*)2"
+    - "R2"
+    - "L1"
+    - "L1,(s)5"
+    - "R5ab"
+    - "R1-2,5"
+    - "Caroline"
+
+The Circle:
+  steps:
+    - "1-5,s"
+    - "R2345,p/"
+    - "L2345,p/"
+    - "1"
+    - "1,5a"
+    - "R2,p/"
+    - "L2,2p/"
+    - "2345"
+    - { step: "SPR", comment: "gently" }
+
+Two Stars:
+  start: base
+  steps:
+    - "1h,2"
+    - { step: "1h,5", comment: "keep loops separated on 1" }
+    - { step: "4,(1bh)1bl", comment: "1bl=two non-transverse strings" }
+    - { step: "45.6,1bh", comment: "1bh=transverse string, auto-off 4" }
+    - { step: "2.3,(1ah)1al", comment: "1ah=transverse string,1al=two strings" }
+    - "1"
+    - "SPR & arrange"
+
+Casting the Fish-Spear:
+  start: base
+  steps:
+    - "L2TT"
+    - "R2"
+    - "R345.6,5a&5b"
+    - "R12.6,1a&1b"
+    - { step: "SPR", figure: "Fish-spear, left" }
+    - "R345.6"
+    - "R12.6"
+    - "R2,p1/"
+    - "L2"
+    - "L345.6,5a&5b"
+    - "L12.6,1a&1b"
+    - { step: "SPR", figure: "Fish-spear, right" }
+    - { comment: "repeat 6-12, switching hands, to cast the spear back and forth" }
+
+An Arrow:
+  start: base
+  steps:
+    - "L2TT"
+    - "mouth,(2 5a)R5b"
+    - "5"
+    - "SPR"
+    - "12adh,2bj"
+    - "mouth"
+    - "2N"
+    - "(1h*)1l"
+    - { step: "3.6,(2 qd)qu", comment: "qu: upper Lp-Rp transverse string" }
+    - "1"
+    - "SPR & arrange"
+
+A Porcupine:
+  start: base
+  steps:
+    - "L2TT"
+    - { step: "arrange", comment: "pull L1a and L5b to move v-crosses toward L" }
+    - "L1h,2"
+    - { step: "L1h,5", comment: "keep loops well-separated" }
+    - { step: "L4.6,(1bl)1bh", comment: "1l: 2 strings" }
+    - { step: "L2.3,(1ah)1al", comment: "1h: 2 strings" }
+    - "L1"
+    - { step: "L1,d2d", comment: "d2d: two strings" }
+    - { step: "L2lT1", comment: "L2 old becomes 2h" }
+    - { step: "L1,2h", comment: "L2h=2 old" }
+    - "L2"
+    - "L2T1"
+    - "R1"
+    - "R5"
     - "SPR & arrange"
