@@ -10,7 +10,7 @@ $(document).ready(function(){
 function loadPage(url) {
   scrollTo(0,0);
   $('#container').load(url + ' #content', function(){
-    var title = $('h2').html() || 'iMizz';
+    var title = $('h2').html() || 'Strings to Go';
     $('h1').html(title);
     $('h2').remove();
     $('.leftButton').remove();
