@@ -396,3 +396,94 @@ The Sun:
     - { step: "45.6", comment: "let 45.6 old hang down" }
     - "345.6,3.6b"
     - { step: "SPR & arrange", comment: "sun appears by raising 1" }
+
+A Well:
+  start: base
+  steps:
+    - { step: "2.6,2b&5a", comment: "auto-off 2 old" }
+    - "2,2.6"
+    - { comment: "Special Note; In cases like this, imagine that you have a finger named 2.6 on your palm, tip upward, and it has the 2.6 loop or loops. Then you can perform 2,2.6 sequentially." }
+    - { step: "2ab", comment: "steps 2 and 3 indicate traditional finger movement of index: turn toward you and up" }
+    - "5"
+    - { step: "345.6,2b", comment: "two strings" }
+    - { step: "3.6,(2a 1b)1a", comment: "keep 45.6" }
+    - "1"
+    - "1,(2ao 3.6a)2aij"
+    - "3.6"
+    - "SPR & arrange"
+
+Fence Around a Well:
+  start: base
+  steps:
+    - { comment: "Steps 1-9 make [[A Well]]" }
+    - { step: "2.6,2b&5a", comment: "auto-off 2 old" }
+    - "2,2.6"
+    - "2ab"
+    - "5"
+    - { step: "345.6,2b", comment: "two strings" }
+    - { step: "3.6,(2a 1b)1a", comment: "keep 45.6" }
+    - "1"
+    - "1,(2ao 3.6a)2aij"
+    - { step: "3.6", figure: "[[A Well]]" }
+    - { step: "1h,2a", comment: "two strings" }
+    - { step: "(1h*)1l", comment: "1h=two strings" }
+    - "2"
+    - "345.6"
+    - "345.6,1b"
+    - "2,1"
+    - "SPR & arrange"
+
+A Crab:
+  start: base
+  steps:
+    - { comment: "Steps 1-9 make [[A Well]]" }
+    - { step: "2.6,2b&5a", comment: "auto-off 2 old" }
+    - "2,2.6"
+    - "2ab"
+    - "5"
+    - { step: "345.6,2b", comment: "two strings" }
+    - { step: "3.6,(2a 1b)1a", comment: "keep 45.6" }
+    - "1"
+    - "1,(2ao 3.6a)2aij"
+    - { step: "3.6", figure: "[[A Well]]" }
+    - { step: "5.6,(s)1a&34.6b", comment: "5.6 has three strings at step-end" }
+    - "1"
+    - "34.6"
+    - { step: "1,(2a&its belonging)p", comment: "=2b, two strings, default over 5.6ai" }
+    - "5.6"
+    - { step: "5.6,(s)1", comment: "two strings" }
+    - "1,2ao"
+    - "2"
+    - "2T1"
+    - "1,(2b qu)qd"
+    - "1ba"
+    - "1h,2a"
+    - "(1h*)1l"
+    - "2"
+    - "2,1"
+    - { step: "2bc", comment: "optional" }
+    - { step: "SPR & arrange", comment: "pull out diamond wide both" }
+
+A Trigger Fish:
+  start: base
+  steps:
+    - { comment: "next 1-5 steps are the same as 1-5 of [[A Well]]" }
+    - { step: "2.6,2b&5a", comment: "auto-off 2 old" }
+    - "2,2.6"
+    - "2ab"
+    - "5"
+    - { step: "345.6,2b", comment: "two strings" }
+    - { step: "R1", comment: "let it hang down in front of the figure" }
+    - "R1.6,(2ao 2ai)2aij/&1a/"
+    - { step: "R1,(2aoj)2aij", comment: "auto-off 1.6 old" }
+    - "R1.6,1"
+    - "R34.6"
+    - { step: "R1,(1.6b)2b*", comment: "two strings at palm, auto-off 1.6 old" }
+    - "R5"
+    - { step: "R45.6,(s)1a", comment: "two strings" }
+    - "R1"
+    - { step: "R1,2ao", comment: "R2ao-L2ao transverse string" }
+    - { step: "R2", comment: "two strings" }
+    - { step: "L1", comment: "hang loosely" }
+    - "L1.6,2aij&2ai"
+    - "SPR & arrange"
