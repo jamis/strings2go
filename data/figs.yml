@@ -267,7 +267,7 @@ Two-Horned Star:
     - { step: "45.6,3.6b", comment: "optional" }
     - "SPR & arrange"
 
-Two-Coyotes:
+Two Coyotes:
   start: base
   steps:
     - "base"
