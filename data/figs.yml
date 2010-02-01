@@ -718,3 +718,188 @@ A Porcupine:
     - "R1"
     - "R5"
     - "SPR & arrange"
+
+A Caroline Islands Catch:
+  start: L base
+  steps:
+    - "L"
+    - "L1-5T2/"
+    - "L2,p1/"
+    - "L1,2b"
+    - "R1,5a"
+    - "L2h,2aj"
+    - "R2h,1bi"
+    - "345.6,5b"
+    - "(1h*)1l"
+    - "345.6"
+    - "5"
+    - "caroline"
+
+Circles and Triangles:
+  start: base
+  steps:
+    - "3,(5)1"
+    - "1,(2a)3"
+    - "1ab"
+    - "2"
+    - "2.1h,1b"
+    - { step: "caroline", comment: 'loosely, for original figure. strongly, for "two suns"' }
+
+Ten Men:
+  start: base
+  steps:
+    - "mouth,5b"
+    - "L2,Rmouth"
+    - "R2,Lmouth"
+    - "mouth"
+    - "1"
+    - "1,(2)5a"
+    - "1h,2ah"
+    - "1N"
+    - "2h"
+    - "2h,1"
+    - "repeat 6-8"
+    - "3,2al"
+    - "5"
+    - "caroline"
+
+'A Variation of "Ten Men"':
+  start: base
+  steps:
+    - { comment: "steps 1-5 and 7-14 are the same as those in [[Ten Men]]" }
+    - { step: "mouth,5b", dup: true }
+    - { step: "L2,Rmouth", dup: true }
+    - { step: "R2,Lmouth", dup: true }
+    - { step: "mouth", dup: true }
+    - { step: "1", dup: true }
+    - "1,(2a)2b&5a"
+    - { step: "1h,2ah", dup: true }
+    - { step: "1N", dup: true }
+    - { step: "2h", dup: true }
+    - { step: "2h,1", dup: true }
+    - { step: "repeat 6-8", dup: true }
+    - { step: "3,2al", dup: true }
+    - { step: "5", dup: true }
+    - { step: "caroline", dup: true }
+
+Caroline Islands Triangles:
+  start: base
+  steps:
+    - "mouth,5b"
+    - "L2,Rmouth"
+    - "R2,Lmouth"
+    - "mouth"
+    - "1"
+    - "1,(2ah)2bl"
+    - "1,(2ah)2bh"
+    - "3,(2ah*)2al"
+    - "45.6,5b"
+    - { step: "1", comment: "gently" }
+    - "1,2ajh"
+    - "3.6,3b"
+    - { step: "SPR & arrange", comment: "with thumbs pointing up, palms facing each other, knuckles pointing away" }
+
+Carrying Money:
+  start: base
+  steps:
+    - "5"
+    - "5,2"
+    - "1ba"
+    - "R1h,(5)L1b"
+    - "L1h,R1ah"
+    - "1N"
+    - { step: "SPR", comment: "gently", figure: "Ekwan 2" }
+    - "1h,5a"
+    - "1h ab"
+    - "1kick"
+    - { step: "arrange", comment: "push loops toward center of figure" }
+    - "5h,1b"
+    - "5h ba"
+    - "5kick"
+    - { step: "arrange", comment: "push loops toward center of figure" }
+    - { step: "SPR & arrange", comment: "display with thumbs up and fingers pointing away" }
+
+House of the Blos-Bird:
+  start: base
+  steps:
+    - "mouth,5b"
+    - "L2,Rmouth"
+    - "R2,Lmouth"
+    - "mouth"
+    - { step: "0,2", comment: "both loops" }
+    - "2bd,(5a)1b"
+    - "1"
+    - "1,2"
+    - "1-5,0"
+    - "2bd,(5a)1b"
+    - { step: "1", comment: "gently" }
+    - "1,(1a-old* s)5bo"
+    - "5"
+    - "5T2"
+    - "2h,1bi"
+    - "SPR & arrange"
+
+Three Stars:
+  start: base
+  steps:
+    - "0,2"
+    - "2ad,(1b)5a"
+    - "5"
+    - "5,(2 1b)1a"
+    - "1"
+    - "1,(2a)2b"
+    - "2"
+    - "repeat 2-7[2]"
+    - "2ad,(1b)5a"
+    - "5"
+    - "1ba"
+    - "(1* 2)0"
+    - "5,(2)1b"
+    - "1,2"
+    - "2.1,1b"
+    - "caroline"
+
+No Name:
+  start: base
+  steps:
+    - "0,2"
+    - "2bd,(5a)1b"
+    - "1"
+    - "1,2"
+    - "1-5,0"
+    - "2bd,(5a)1b"
+    - { step: "1", comment: "gently" }
+    - "1,(1a-old* s)5bo"
+    - "5"
+    - "caroline"
+
+Coral:
+  start: base
+  steps:
+    - "0T1"
+    - "1ad,(0)5b"
+    - "L1TT"
+    - "1,5a"
+    - "3,1bi"
+    - "1"
+    - "5"
+    - { step: "2", comment: "gently" }
+    - "1,3"
+    - "1-5,0"
+    - "2.1,1bi"
+    - "caroline"
+
+A Man:
+  start: base
+  steps:
+    - "2ac"
+    - { step: "2h,2c/", comment: "preserve 2h through subsequent movements" }
+    - "0T1"
+    - "1,(0)5b"
+    - { step: "1,0ajj/", comment: "sometimes 2al, sometimes middle 2a" }
+    - "1,2ah"
+    - "3,1bi"
+    - "1"
+    - "5 (SPR)"
+    - "2"
+    - { step: "SPR & display", comment: "hands in normal position" }
