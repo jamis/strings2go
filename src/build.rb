@@ -23,6 +23,37 @@ def autolink(text)
   end
 end
 
+def emit_step(f, index, step)
+  instruction = step.is_a?(String) ? step : step['step']
+  comment = step.is_a?(String) ? nil : step['comment']
+  figure = step.is_a?(String) ? nil : step['figure']
+  dup = step.is_a?(String) ? nil : step['dup']
+
+  f.print "<li"
+  if figure
+    f.print " class='figure'"
+  elsif dup
+    f.print " class='dup'"
+  end
+  f.print "><div class='idx'"
+  f.print " style='visibility: hidden'" if instruction.nil?
+  f.print ">#{index}</div> "
+  f.print "<div class='step'>"
+
+  if instruction
+    f.print(htmlify(instruction))
+    index += 1
+  end
+
+  f.print " <span class='comment'>(#{autolink(comment)})</span>" if comment
+  f.print " <span class='figure'>[#{autolink(figure)}]</span>" if figure
+
+  f.print "</div>"
+  f.puts '</li>'
+
+  return index
+end
+
 DATA = YAML.load_file(File.join(File.dirname(__FILE__), "..", "data", "figs.yml"))
 NAMES = DATA.keys.sort_by { |name| name.downcase.sub(/^(a|an|the)\s+/, "") }
 
@@ -46,36 +77,10 @@ NAMES.each do |name|
     f.puts "<div id='content'>"
     f.puts "<h2>#{name}</h2>"
     start = DATA[name]["start"]
-    f.puts "<ol start='#{start ? '0' : '1'}'>"
-    f.puts "<li><span class='idx'>0</span> <div class='step'>#{htmlify(start)}</div></li>" if start
-    index = 1
+    f.puts "<ol>"
+    index = start ? emit_step(f, 0, start) : 1
     DATA[name]['steps'].each do |step|
-      instruction = step.is_a?(String) ? step : step['step']
-      comment = step.is_a?(String) ? nil : step['comment']
-      figure = step.is_a?(String) ? nil : step['figure']
-      dup = step.is_a?(String) ? nil : step['dup']
-
-      f.print "<li"
-      if figure
-        f.print " class='figure'"
-      elsif dup
-        f.print " class='dup'"
-      end
-      f.print "><div class='idx'"
-      f.print " style='visibility: hidden'" if instruction.nil?
-      f.print ">#{index}</div> "
-      f.print "<div class='step'>"
-
-      if instruction
-        f.print(htmlify(instruction))
-        index += 1
-      end
-
-      f.print " <span class='comment'>(#{autolink(comment)})</span>" if comment
-      f.print " <span class='figure'>[#{autolink(figure)}]</span>" if figure
-
-      f.print "</div>"
-      f.puts '</li>'
+      index = emit_step(f, index, step)
     end
     f.puts "</ol>"
     f.puts "</div>"
