@@ -118,3 +118,8 @@ body {
   padding: 50px;
   margin: 50px;
 }
+
+#footer {
+  padding: 20px 50px;
+  font-size: 10px;
+}
