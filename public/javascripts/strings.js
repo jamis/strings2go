@@ -5,6 +5,10 @@ var startUrl = "data/contents.html";
 
 $(document).ready(function(){ 
   if(navigator.userAgent.toLowerCase().indexOf('iphone') != -1) {
+    $('a#refresh').click(function() {
+      window.applicationCache.update();
+    });
+
     loadPage(startUrl);
   } else {
     loadPage("badbrowser.html")
