@@ -4,7 +4,8 @@ var hist = [];
 var startUrl = "data/contents.html";
 
 $(document).ready(function(){ 
-  if(navigator.userAgent.toLowerCase().indexOf('iphone') != -1) {
+  if(navigator.userAgent.toLowerCase().indexOf('iphone') != -1 ||
+     navigator.userAgent.toLowerCase().indexOf('android') != -1) {
     $('a#refresh').click(function() {
       window.applicationCache.update();
     });
