@@ -1000,3 +1000,92 @@ M:
     - "5,2a"
     - "1"
     - { step: "SPR & display", comment: "hands in normal position" }
+
+A Bow:
+  start: Navaho Opening
+  steps:
+    - "1,2b"
+    - "3,1b"
+    - "45.6,(3b)2ajj"
+    - "1"
+    - "caroline"
+
+Lightning:
+  start: Navaho Opening
+  steps:
+    - "1,2b"
+    - "3,1b"
+    - "4,2ajj"
+    - "5,3bj"
+    - { step: "(4b&5b*)1", comment: "release 1, throwing both strings over 4b&5b" }
+    - "1,4b*"
+    - "SPR & display"
+
+A Butterfly:
+  start: Navaho Opening
+  steps:
+    - "2ba[10]"
+    - "1,2a"
+    - "(1h*)1l"
+    - "L2hT2/"
+    - "L1hT1/"
+    - "R2,1h/"
+    - "R1T1/"
+    - { step: "R2hT2/", comment: "both strings" }
+    - { step: "L1,2bh/", comment: "R2h=one string" }
+    - "R2h"
+    - "L2T2h/"
+    - "SPR "
+    - "345.6,2b&1a"
+    - "SPR & display"
+
+A Worm:
+  start: Navaho Opening
+  steps:
+    - "1ab[2]"
+    - "45.6,(2b)2a"
+    - "3.6,(2b)2a&1b"
+    - "L1hT2"
+    - "L1hT2/"
+    - { step: "R2TL1", comment: "all loops, keep separated throughout following steps" }
+    - { step: "L2,R2a", comment: "all loops" }
+    - "R2h&L2hTR1"
+    - { step: "L2h,L2lh", comment: "L2lh = highest of the lower strings, e.g. second highest string" }
+    - "3"
+    - { step: "3,(2al)2ah", comment: "2al=three loops" }
+    - "2"
+    - "1,45.6a"
+    - "45.6"
+    - "caroline"
+
+Twin Stars:
+  start: Navaho Opening
+  steps:
+    - "1h,2"
+    - "2,(1bh*)1bl"
+    - "3.6,(2b 1b)1ah"
+    - "1"
+    - "caroline"
+
+A Lizard:
+  start: Navaho Opening
+  steps:
+    - "R2TT"
+    - { step: "SPR", comment: "inner pull L1a to move central v-cross toward R" }
+    - { comment: "steps 3-7 are the same as 3-7 of [[Twin Stars]]" }
+    - { step: "1h,2", dup: true }
+    - { step: "2,(1bh*)1bl", dup: true }
+    - { step: "3.6,(2b 1b)1ah", dup: true }
+    - { step: "1", dup: true }
+    - { step: "caroline", dup: true }
+
+Little Fishes:
+  start: Murray Island Opening
+  steps:
+    - "1,(2ah)2bl"
+    - "1,2bh"
+    - "5,(2ajh*)2ajl"
+    - "2ad,2ajjh"
+    - "1"
+    - "caroline"
+
