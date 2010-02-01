@@ -28,6 +28,8 @@ NAMES = DATA.keys.sort_by { |name| name.downcase.sub(/^(a|an|the)\s+/, "") }
 
 FileUtils.mkdir_p("public/data")
 
+puts "database contains #{DATA.length} figures"
+
 File.open("public/data/contents.html", "w") do |f|
   f.puts "<div id='content'>"
   f.puts "<ul>"
