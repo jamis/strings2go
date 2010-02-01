@@ -4,7 +4,11 @@ var hist = [];
 var startUrl = "data/contents.html";
 
 $(document).ready(function(){ 
-  loadPage(startUrl);
+  if(navigator.userAgent.toLowerCase().indexOf('iphone') != -1) {
+    loadPage(startUrl);
+  } else {
+    loadPage("badbrowser.html")
+  }
 });
 
 function loadPage(url) {

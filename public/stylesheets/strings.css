@@ -110,3 +110,11 @@ body {
 #container li .figure a {
   color: #f22;
 }
+
+#container .badbrowser {
+  border: 1px solid #f77;
+  background: #fcc;
+  font-size: 25px;
+  padding: 50px;
+  margin: 50px;
+}
