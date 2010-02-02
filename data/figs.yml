@@ -1089,3 +1089,132 @@ Little Fishes:
     - "1"
     - "caroline"
 
+Storm Clouds:
+  start: Murray Island Opening
+  steps:
+    - "R1,(2ah)2bl"
+    - "L1,(2ah)2bh "
+    - "R345.6,(2bh)2ah"
+    - "L345.6,(2bl)2ah"
+    - "3.6"
+    - { step: "L3.6,(2ajh* 2bl)2ajl", comment: "auto-off 45.6" }
+    - { step: "R3.6,(2ah* 2bh)2ajl", comment: "auto-off 45.6" }
+    - "345.6,3.6"
+    - "1"
+    - { step: "caroline", figure: "One Storm Cloud" }
+    - { step: "1.6,(d1d)d1j*", comment: "let A=this 345.6" }
+    - { step: "345.6", comment: "=A, keep your eye on it!" }
+    - "345.6T(s)1.6"
+    - "3.6"
+    - { step: "R3.6,(d1d&A* 45.6a)2bh*", comment: "auto-off 45.6" }
+    - { step: "L3.6,(d1d&A* 45.6a)2bl*", comment: "auto-off 45.6" }
+    - "345.6,3.6"
+    - { step: "2adh,A", comment: "=transverse string, 345.6 old old" }
+    - { step: "caroline", figure: "Two Storm Clouds" }
+    - "repeat 11-14"
+    - { step: "3.6,(d1d&A* 45.6a)2bh*", comment: "auto-off 45.6" }
+    - "345.6,3.6"
+    - "2h"
+    - { step: "repeat 18-19", figure: "Three Storm Clouds" }
+    - { step: "repeat 20-24[n]", figure: "3+n Storm Clouds" }
+
+One Hogan:
+  steps:
+    - "L2-3,s"
+    - { step: "R2ad,(2a/)23d/", comment: "SPR" }
+    - "R2"
+    - { step: "R2.1,(2bj/ 23p/*)2b/&3a/", comment: "SPR" }
+    - "R2.1"
+    - { step: "L1,quj", comment: "qu=opposite end of 2bj" }
+    - { step: "L5,quj", comment: "qu=opposite end of 3aj" }
+    - "R2.1,p1/"
+    - { step: "SPR & display", comment: "R above L, L palm up" }
+
+An Apache Teepee:
+  steps:
+    - { step: "Lp,s", comment: "L faces palm up, string drapes over Lp" }
+    - { step: "L2ad,pa", comment: "L2b hangs down front of hand" }
+    - { step: "L5bd,pb", comment: "L5a hangs down front of hand" }
+    - { step: "R2,(2p/)2b/&5a/", comment: "SPR, auto-off R2" }
+    - "R0,s/"
+    - "R5bd,5a/"
+    - "R1ad,2b/"
+    - { step: "SPR & display", comment: "L above R" }
+
+Tallow Dips:
+  steps:
+    - { step: "Lp,s", comment: "L faces palm up, string drapes over Lp" }
+    - { step: "L2ad,pa", comment: "L2b hangs down front of hand" }
+    - { step: "L5bd,pb", comment: "L5a hangs down front of hand" }
+    - { step: "R2.1,23p/", comment: "SPR slightly" }
+    - "L34TR2.1"
+    - "R2.6,2c/"
+    - "R3.6,5c/"
+    - "SPR"
+    - "L2.6,2a"
+    - "L3.6,3aj"
+    - "L4.6,4bj"
+    - { step: "L5.6,5b", comment: "L forms a fist" }
+    - { step: "(L23d)R2.6&R3.6", comment: "lay R2&R3 old over back of L" }
+    - "R2.1,L23d"
+    - { step: "SPR", comment: "gently, unclose L fist, R above L", figure: "Tallow Dips" }
+    - "L1,2.1/"
+    - { step: "R2.6,3d/", comment: "auto-off 3/" }
+    - { step: "R3.6,4d/", comment: "auto-off 4/" }
+    - { step: "SPR", comment: "L palm up, R over L", figure: "Chair" }
+    - "L1"
+    - { step: "SPR & display", figure: "Shears" }
+    - "L2"
+    - { step: "SPR & display", figure: "Tipstaff" }
+    - "R2.6"
+    - "R0,3.6"
+    - "L0,5"
+    - { step: "SPR & display", figure: "Handcuffs" }
+
+One Chief:
+  steps:
+    - "1-5,s"
+    - "L1ac"
+    - "R2,1c/"
+    - "L2,2p/"
+    - "R2h,2p/"
+    - { step: "L", comment: "turn R palm-down and let strings hang down" }
+    - "R2dh,(2dh)2dl"
+    - "L1,2bh/"
+    - "L5T2/"
+    - "SPR"
+    - "1ba"
+    - "1,5a"
+    - "2.1,1b"
+    - "Caroline"
+
+Caroline Islands Diamonds:
+  steps:
+    - "mouth,s"
+    - "R0,Lmouth"
+    - "L0,Rmouth"
+    - "0ab[2]"
+    - "5Tmouth"
+    - "SPR"
+    - "1,0"
+    - "1,5a"
+    - "2.1,1b"
+    - "Caroline"
+
+Turtle:
+  steps:
+    - "2f L2,s"
+    - "2f Lbc"
+    - "1f 0,sx"
+    - "1f 0bc"
+    - { step: "1f 2.1,(0)L2cx", comment: "auto-off 0 old" }
+    - "1f 0,2.1"
+    - "1f 5,0bj"
+    - { step: "1f 1,qu", comment: "=loop around 0b" }
+    - "2f L2"
+    - "1f SPR"
+    - "1f 0"
+    - "1f 1,5a"
+    - "1f 2.1,1b"
+    - { step: "1f Caroline", comment: "L down, fingers pointing R, R above, fingers pointing L" }
+
