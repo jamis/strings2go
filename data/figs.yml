@@ -1201,7 +1201,7 @@ Caroline Islands Diamonds:
     - "2.1,1b"
     - "Caroline"
 
-Turtle:
+A Turtle:
   steps:
     - "2f L2,s"
     - "2f Lbc"
@@ -1217,4 +1217,54 @@ Turtle:
     - "1f 1,5a"
     - "1f 2.1,1b"
     - { step: "1f Caroline", comment: "L down, fingers pointing R, R above, fingers pointing L" }
+
+Ten Times:
+  steps:
+    - { comment: "steps 1-14 are the same as [[A Turtle]]" }
+    - { step: "2f L2,s", dup: true }
+    - { step: "2f Lbc", dup: true }
+    - { step: "1f 0,sx", dup: true }
+    - { step: "1f 0bc", dup: true }
+    - { step: "1f 2.1,(0)L2cx", comment: "auto-off 0 old", dup: true }
+    - { step: "1f 0,2.1", dup: true }
+    - { step: "1f 5,0bj", dup: true }
+    - { step: "1f 1,qu", comment: "=loop around 0b", dup: true }
+    - { step: "2f L2", dup: true }
+    - { step: "1f SPR", dup: true }
+    - { step: "1f 0", dup: true }
+    - { step: "1f 1,5a", dup: true }
+    - { step: "1f 2.1,1b", dup: true }
+    - { step: "1f Caroline", comment: "L down, fingers pointing R, R above, fingers pointing L", dup: true, figure: "[[A Turtle]]" }
+    - "2f L5T2hx"
+    - "2f L1,d3x&d4x"
+    - "2f R5,L5x"
+    - "2f R1,Ld3dx&Ld4dx"
+    - "2f L1,R5x"
+    - "2f R1T2hx"
+    - "1f L&R"
+    - "2f SPR"
+    - "1f R1,1x"
+    - "1f L1,5x"
+    - "2f L1,1/"
+    - "2f R1,5"
+    - "SPR"
+    - { step: "23.6,(1b)d1", comment: "auto-off 1" }
+    - "1,23.6"
+    - "repeat 28-29[9]"
+    - { step: "L&R", comment: "lay flat on table, unfold carefully", figure: "[[A Turtle]]" }
+
+Pygmy Diamonds:
+  steps:
+    - "1f 0,s"
+    - "1f L2bd,0a"
+    - "1f R2,2p/"
+    - "1f 1T2"
+    - { step: "2f R2.1,L1bx&R1bx", comment: "where the two strings cross" }
+    - "1f 1.6,1b"
+    - "1f 0"
+    - "1f 0,1.6"
+    - "1f 3,p1"
+    - "1f 1,0"
+    - "2f R2.1"
+    - "1f SPR & arrange"
 
