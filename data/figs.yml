@@ -1268,3 +1268,57 @@ Pygmy Diamonds:
     - "2f R2.1"
     - "1f SPR & arrange"
 
+A Mouth:
+  steps:
+    - "1-5,s"
+    - "R2h,p/"
+    - "R2h ba"
+    - "L2h,5a"
+    - "5"
+    - "45.6,(2b)2a"
+    - "3.6,(2b)2a&1b"
+    - { step: "2bd,(2b)1a", comment: "auto-off 2" }
+    - "1"
+    - "3.6"
+    - "3T2"
+    - "L3T3/"
+    - "L45T45/"
+    - { step: "R2345.6T45/", comment: "two strings" }
+    - { step: "L2345.6T3", comment: "two strings" }
+    - { step: "SPR", comment: "open and shut mouth by rotating wrists" }
+
+Two Little Boys Running Away:
+  steps:
+    - { step: "1,s", comment: "s=short or doubled loop" }
+    - "L2,1b"
+    - "R2,2a/"
+    - "R2ba"
+    - "2ba[2]"
+    - "1ab[2]"
+    - "345.6,(2aj)d1&d1d"
+    - "L2e,(2a)2a/"
+    - "L1e,(1a)1a/"
+    - "R345.6"
+    - "R345.6T2"
+    - "R345.6T1"
+    - "R2345.6,345.6"
+    - { step: "SPR & arrange", comment: "make boys run by pulling on R2345.6a" }
+
+The Little Fish that Hides in the Mud:
+  steps:
+    - { step: "1,s", comment: "s=short or doubled loop"
+    - "L2,1b"
+    - "R2,2a/"
+    - "R2ba"
+    - "Rad,s/"
+    - "R2345l,L2"
+    - "L2.1,2/"
+    - "R2345"
+    - "L2.1b,(2.1a)R2345.6"
+    - "L2.1"
+    - { step: "L2345.6,(s)R2345.6b", comment: "knuckle-to-knuckle, L and R grip the same string" }
+    - "R2345.6"
+    - "SPR"
+    - "L2345.6"
+    - { step: "SPR", comment: "hanging loop is “fish”, either is caught, or escapes by disappearing" }
+
