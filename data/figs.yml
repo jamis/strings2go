@@ -1306,7 +1306,7 @@ Two Little Boys Running Away:
 
 The Little Fish that Hides in the Mud:
   steps:
-    - { step: "1,s", comment: "s=short or doubled loop"
+    - { step: "1,s", comment: "s=short or doubled loop" }
     - "L2,1b"
     - "R2,2a/"
     - "R2ba"
@@ -1321,4 +1321,139 @@ The Little Fish that Hides in the Mud:
     - "SPR"
     - "L2345.6"
     - { step: "SPR", comment: "hanging loop is “fish”, either is caught, or escapes by disappearing" }
+
+A Little Boy Carrying Wood:
+  steps:
+    - "L1,s"
+    - { step: "L1bc[10]", comment: "loosely" }
+    - "R1,s/"
+    - "L2,1b"
+    - "R2,1b/"
+    - "R2ba"
+    - "345.6,(2b)2a"
+    - { step: "L2.3,(2b)2b/", comment: "auto-off L2 old" }
+    - "R2"
+    - { step: "L2,(1d)2", comment: "1d=all loops, auto-off 1" }
+    - "R2T1"
+    - "R1,(2b)345.6aj"
+    - "R2"
+    - "R345.6"
+    - { step: "SPR", comment: "draw up hanging R345.6 old by outer pull R1b. push central knot toward R, causing knot to tighten." }
+    - "L345.6"
+    - "L45.6,2"
+    - { step: "SPR & arrange", comment: 'push "boy" toward middle, then walk left by outer-pull R1a' }
+
+A Second Worm:
+  steps:
+    - "1,s"
+    - "2,1a"
+    - "R1h,2a/"
+    - { step: "mouth,(R2h*)R2l", comment: "SPR, arrange mouth loop to center" }
+    - "345.6,(2a 1b*)2b"
+    - "mouth"
+    - "SPR"
+
+A Brush House:
+  steps:
+    - "2,s"
+    - "1ad,(2a)2b"
+    - "R2h,1aj/"
+    - "R2h ab[2]"
+    - "repeat 3-4 on L"
+    - "L1,2ah"
+    - "R2.1,s/"
+    - { step: "L1&2", comment: "gently" }
+    - "R2.1ab"
+    - "L1,2 old"
+    - "L2,1 old"
+    - { step: "R2.1", comment: "SPR" }
+    - "repeat 6-12 on R"
+    - { step: "friend,2bj&1aj", comment: "where they all cross in the middle of the figure" }
+    - { step: "1.6,1b", comment: "auto-off 1 old" }
+    - { step: "2.6,2a", comment: "auto-off 2 old" }
+    - { step: "Caroline", comment: "hands pointed down, friend holding strings up" }
+
+"A Six-Pointed Star":
+  steps:
+    - { comment: "steps 1-17 are the same as [[A Brush House]]" }
+    - { step: "2,s", dup: true }
+    - { step: "1ad,(2a)2b", dup: true }
+    - { step: "R2h,1aj/", dup: true }
+    - { step: "R2h ab[2]", dup: true }
+    - { step: "repeat 3-4 on L", dup: true }
+    - { step: "L1,2ah", dup: true }
+    - { step: "R2.1,s/", dup: true }
+    - { step: "L1&2", comment: "gently", dup: true }
+    - { step: "R2.1ab", dup: true }
+    - { step: "L1,2 old", dup: true }
+    - { step: "L2,1 old", dup: true }
+    - { step: "R2.1", comment: "SPR", dup: true }
+    - { step: "repeat 6-12 on R", dup: true }
+    - { step: "friend,2bj&1aj", comment: "where they all cross in the middle of the figure", dup: true }
+    - { step: "1.6,1b", comment: "auto-off 1 old", dup: true }
+    - { step: "2.6,2a", comment: "auto-off 2 old", dup: true }
+    - { step: "Caroline", comment: "hands pointed down, friend holding strings up", dup: true, figure: "[[A Brush House]]" }
+    - { step: "2f", comment: "release all strings, gently" }
+    - "2f R2.1,2bjx"
+    - "2f L2.1,1ajx"
+    - "SPR & arrange"
+
+The Breastbone and Ribs:
+  steps:
+    - "1-3,s"
+    - "5,3b"
+    - { step: "2,2p/", comment: "R first" }
+    - { step: "4,4p/", comment: "R first" }
+    - "1h,2a"
+    - "(1h*)1l"
+    - "1h,3a"
+    - "(1h*)1l"
+    - "1h,4a"
+    - "(1h*)1l"
+    - "1h,5a"
+    - "(1h*)1l"
+    - "1h,5b"
+    - "(1h*)1l"
+    - "5T1"
+    - { step: "mouth,qd", comment: "q=loop around 2p" }
+    - { step: "SPR", comment: "pulling mouth loop far" }
+
+"A Bird's Nest":
+  steps:
+    - "L1-5,s"
+    - "R5,s/"
+    - "R1,p/"
+    - "R1ab"
+    - "R2bd,(1b)1a"
+    - "L2,2p/"
+    - "1,5a"
+    - "3.2,1b"
+    - "1&5"
+    - "45.6,(3)2b"
+    - "1,2a"
+    - "SPR"
+
+Two Boys Fighting for an Arrow:
+  steps:
+    - "0,s"
+    - "5,0a"
+    - "1,0b"
+    - { step: "R2,0b/&0a/", comment: "0b/ first" }
+    - { step: "L2,1bj/&5aj", comment: "1bj/ first" }
+    - { step: "0", comment: "SPR" }
+    - { step: "2.6,p1", comment: "auto-off 2" }
+    - "SPR"
+    - { comment: "second person holds a small stick into center of figure" }
+    - { step: "2.6", comment: "SPR hard, stick will be caught or snapped away" }
+
+Flint and Steel:
+  steps:
+    - { step: "1-5,s", comment: "s=doubled or short string" }
+    - "R1h,p/"
+    - "R1h ab"
+    - "L1h,5a"
+    - "2h,1b"
+    - "(1h*)1l"
+    - "5 (SPR)"
+    - { step: "SPR & display", comment: "quickly, R moves over and to the left of L, L moves under and to the right of R, display as Caroline with palms facing opposite directions" }
 
